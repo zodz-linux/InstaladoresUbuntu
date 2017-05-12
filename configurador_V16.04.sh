@@ -18,8 +18,6 @@ option=$( zenity --list --title="Configurador Ubuntu 16.04 o superior " \
 
 case $option in
 
-;;
-
 1)
 printf "\n\t Seleccionaste la opcion de instalar SW.\n\n"
 apt-get -y install synaptic gdebi gparted p7zip-full zram-config audacious bleachbit preload rar vlc ffmpeg unrar git  wget  build-essential gnome-nettool gimp gimp-data-extras gedit-plugins nautilus-admin shotwell
